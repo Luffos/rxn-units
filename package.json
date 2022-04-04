@@ -12,10 +12,12 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc --build"
+    "build": "rimraf ./build && tsc --build",
+    "build-watch": "watch \"npm run build\" ./src --interval 1 --wait 0.1"
   },
   "devDependencies": {
     "@types/react-native": "^0.67.3",
+    "rimraf": "^3.0.2",
     "typescript": "^4.6.3"
   },
   "peerDependencies": {
