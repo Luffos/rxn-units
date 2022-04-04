@@ -1,4 +1,5 @@
 
+
 # rxn-units
 Viewport units (vw, vh, vmin, vmax) + useUnits hook<br/>for React, React Native and Expo.
 
@@ -18,4 +19,4 @@ yarn add rxn-units
 <br/> 🌐 Using this module for Web?<br/>Don't forget to setup [react-native-web](https://github.com/necolas/react-native-web)
 
 ##  License
-MIT © [Luffos](https://github.com/Luffos)
+MIT - This module was built with ❤️ by [Luffos](https://github.com/Luffos)<br/>Feel free for modify, edit, copy, fork and share
