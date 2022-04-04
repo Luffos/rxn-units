@@ -4,7 +4,10 @@
   "version": "0.0.1",
   "description": "Viewport units (vw, vh, vmin, vmax) + useUnits hook for React, React Native and Expo.",
   "main": "build/index.js",
-  "repository": "https://github.com/Luffos/rxn-units",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luffos/rxn-units.git"
+  },
   "author": "Luffos",
   "license": "MIT",
   "private": false,
@@ -17,5 +20,19 @@
   },
   "peerDependencies": {
     "react-native": "*"
-  }
+  },
+  "types": "./build/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/Luffos/rxn-units/issues"
+  },
+  "homepage": "https://github.com/Luffos/rxn-units#readme",
+  "keywords": [
+    "react",
+    "typescript",
+    "react-native",
+    "units",
+    "react-native-web",
+    "expo",
+    "rxn"
+  ]
 }
