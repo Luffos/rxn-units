@@ -20,7 +20,7 @@ yarn add rxn-units
 
 ##  Example
 
-- Using dynamical hooks: [Example here](https://snack.expo.dev/@3gomesz/rxn-units-example)
+- Using dynamical hooks: [CodeSandbox Example here](https://codesandbox.io/s/rxn-units-example-ox6n4h)
 
 ##  Usage
 
