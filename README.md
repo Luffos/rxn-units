@@ -46,5 +46,11 @@ Using static methods (Need manual recall every time)
     
     . . .
 
+## Contributors
+
+<a href = "https://github.com/Luffos/rxn-units/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Luffos/rxn-units"/>
+</a>
+
 ##  License
 MIT - This module was built with ❤️ by [Luffos](https://github.com/Luffos)<br/>Feel free for modify, edit, copy, fork and share
