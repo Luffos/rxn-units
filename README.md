@@ -1,5 +1,5 @@
 
-<a href="https://www.npmjs.com/package/rxn-units"><img src="https://i.imgur.com/0vxacb0.png" /></a><br/>
+<a href="https://www.npmjs.com/package/rxn-units"><img width="263" src="https://i.imgur.com/0vxacb0.png" /></a><br/>
 Viewport units (vw, vh, vmin, vmax) + useUnits hook<br/>for React, React Native and Expo.
 
 Inspired by: [react-native-viewport-units](https://github.com/jmstout/react-native-viewport-units) and [react-native-expo-viewport-units](https://github.com/joetakara/react-native-expo-viewport-units)
