@@ -18,5 +18,34 @@ yarn add rxn-units
 ```
 <br/> 🌐 Using this module for Web?<br/>Don't forget to setup [react-native-web](https://github.com/necolas/react-native-web)
 
+##  Example
+
+- Using dynamical hooks: [Example here](https://snack.expo.dev/@3gomesz/rxn-units-example)
+
+##  Usage
+
+Using via hook (dynamically changes)
+
+    import React from 'react';
+    import useUnits from 'rxn-units';
+    
+    const Test = () => {
+	  const {vmin, vmax, vw, vh} = useUnits();
+
+      . . .
+    }
+    
+Using static methods (Need manual recall every time)
+
+    import React from 'react';
+    import {vmin, vmax, vw, vh} from 'rxn-units';
+    
+    const handleClick = () => {
+        console.log("current vmin", vmin());
+        console.log("current vmax", vmax());
+    }
+    
+    . . .
+
 ##  License
 MIT - This module was built with ❤️ by [Luffos](https://github.com/Luffos)<br/>Feel free for modify, edit, copy, fork and share
