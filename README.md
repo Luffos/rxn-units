@@ -17,9 +17,9 @@ yarn add rxn-units
 ```
 <br/> 🌐 Using this module for Web?<br/>Don't forget to setup [react-native-web](https://github.com/necolas/react-native-web)
 
-##  Example
+##  Examples
 
-- Using dynamical hooks: [CodeSandbox Example here](https://codesandbox.io/s/rxn-units-example-ox6n4h)
+- Using dynamical hooks: [CodeSandbox Example ☁️](https://codesandbox.io/s/rxn-units-example-ox6n4h)
 
 ##  Usage
 
