@@ -22,7 +22,7 @@ yarn add rxn-units
 
 - Using dynamical hooks: [CodeSandbox Example ☁️](https://codesandbox.io/s/rxn-units-example-ox6n4h)
 
-## Units
+## Units (vw, vh, vmin and vmax)
 **What is vw? (viewport width)**
 The vw measurement is equal to 1/100 of the viewport, window or screen width.
 Example: If the browser width is 900px, vw(1) equals 9px.
