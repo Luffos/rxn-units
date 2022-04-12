@@ -33,9 +33,8 @@ Example: If the browser height is 500px, `vh(1)` equals 5px.
 <br/>
 
 **What is vmin and vmax?**<br/>
-- `vmax(n)` means `"Which is the larger between vw(n) and vh(n)?"` = `vw(n) or vh(n)`<br/>
+- `vmax(n)` means `"Which is the larger between vw(n) and vh(n)?"` = `vw(n) or vh(n)`
 - `vmin(n)` means `"Which is the lower between vw(n) and vh(n)?"` = `vw(n) or vh(n)`
-<br/>
 
 **Percentage**<br/>
 `percentage(x, y)` = `X%` of `Y`
