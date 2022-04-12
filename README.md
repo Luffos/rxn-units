@@ -1,4 +1,5 @@
 
+
 <a href="https://www.npmjs.com/package/rxn-units"><img width="263" src="https://i.imgur.com/0vxacb0.png" /></a><br/>
 Viewport units (vw, vh, vmin, vmax) + useUnits hook<br/>for React, React Native and Expo.
 
@@ -20,6 +21,27 @@ yarn add rxn-units
 ##  Examples
 
 - Using dynamical hooks: [CodeSandbox Example ☁️](https://codesandbox.io/s/rxn-units-example-ox6n4h)
+
+## Units
+**What is vw? (viewport width)**
+The vw measurement is equal to 1/100 of the viewport, window or screen width.
+Example: If the browser width is 900px, vw(1) equals 9px.
+
+**What is vh? (viewport height)**
+The vh measurement is equal to 1/100 of the viewport, window or screen height.
+Example: If the browser height is 500px, vh(1) equals 5px.
+
+**What is vmin and vmax?**
+`vmin` uses the ratio of the  _smallest side_. That is, if the _height_ of window is  _less_ than its  _width_,  `vmin(1)`  will be equivalent to  `vh(1)`. If the _width_ is less than it’s  _height_,  `vmin(1)`  is equivalent to  `vw(1)`. 
+
+`vmax`  is the  opposite of `vmin`. it uses the  _largest side_. So  `vmax(1)`  is equivalent to  `vw(1)`  _if_  the viewport is wider than it is tall. If screen is taller than it is wide,  `vmax(1)`  will be equivalent to  `vh(1)`.
+
+Basically (n = any number): 
+- `vmax(n)` asks `"Which is the larger between vw(n) and vh(n)?"` returns `vw(n) or vh(n)`
+- `vmin(n)` asks `"Which is the lower between vw(n) and vh(n)?"`  returns `vw(n) or vh(n)`
+
+Each unit should be used in different cases depending on the purpose or need. But keep in mind that for a responsive (non-adaptive) layout these units should suffice. Many video games, engines or graphics engines use the same scheme to create UIs or on-screen resources that must automatically follow rules regardless of resolution. Of course, in some projects things flow much better by combining the same technique with graphic elements that are different or disappear depending on the conditions but remember that if you create infinite breakpoints to "just don't let the element leave the screen" you may be missing the right unit calculations in your software. Everything here can be used to define size, dimension, scale and position. For better understanding look for our examples.
+
 
 ##  Usage
 
