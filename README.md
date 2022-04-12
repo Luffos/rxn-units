@@ -33,12 +33,8 @@ Example: If the browser height is 500px, `vh(1)` equals 5px.
 <br/>
 
 **What is vmin and vmax?**<br/>
-`vmin` uses the ratio of the  _smallest side_. That is, if the _height_ of window is  _less_ than its  _width_,  `vmin(1)`  will be equivalent to  `vh(1)`. If the _width_ is less than it’s  _height_,  `vmin(1)`  is equivalent to  `vw(1)`. 
-
-`vmax`  is the  `opposite of vmin`. it uses the  _largest side_. So  `vmax(1)`  is equivalent to  `vw(1)`  _if_  the viewport is wider than it is tall. If screen is taller than it is wide,  `vmax(1)`  will be equivalent to  `vh(1)`.
-
-`vmax(n)` asks `"Which is the larger between vw(n) and vh(n)?"` returns `vw(n) or vh(n)`<br/>
-`vmin(n)` asks `"Which is the lower between vw(n) and vh(n)?"`  returns `vw(n) or vh(n)`
+`vmax(n)` means `"Which is the larger between vw(n) and vh(n)?"` returns `vw(n) or vh(n)`<br/>
+`vmin(n)` means `"Which is the lower between vw(n) and vh(n)?"`  returns `vw(n) or vh(n)`
 <br/>
 
 **Percentage**<br/>
