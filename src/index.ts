@@ -12,9 +12,10 @@ export const vmin = (
   baseHeight?: number
 ) =>
   Math.min(
-    (baseWidth || Dimensions.get("window").width) * (number ? number / 100 : 1),
+    (baseWidth || Dimensions.get("window").width) *
+      (number != undefined ? number / 100 : 1),
     (baseHeight || Dimensions.get("window").height) *
-      (number ? number / 100 : 1)
+      (number != undefined ? number / 100 : 1)
   );
 
 export const vmax = (
@@ -23,9 +24,10 @@ export const vmax = (
   baseHeight?: number
 ) => {
   return Math.max(
-    (baseWidth || Dimensions.get("window").width) * (number ? number / 100 : 1),
+    (baseWidth || Dimensions.get("window").width) *
+      (number != undefined ? number / 100 : 1),
     (baseHeight || Dimensions.get("window").height) *
-      (number ? number / 100 : 1)
+      (number != undefined ? number / 100 : 1)
   );
 };
 
