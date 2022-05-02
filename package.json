@@ -12,6 +12,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "prepublish": "npm run build",
     "build": "rimraf ./build && tsc --build",
     "build-watch": "watch \"npm run build\" ./src --interval 1 --wait 0.1"
   },
