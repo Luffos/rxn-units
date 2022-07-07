@@ -51,26 +51,28 @@ Example: If the browser height is 500px, `vh(1)` equals 5px.
 
 Using via hook (dynamically changes)
 
-    import React from 'react';
-    import useUnits from 'rxn-units';
+```typescript
+import React from 'react';
+import useUnits from 'rxn-units';
     
-    const Test = () => {
-	  const {vmin, vmax, vw, vh, percentage} = useUnits();
+const Test = () => {
+  const {vmin, vmax, vw, vh, percentage} = useUnits();
 
-      . . .
-    }
+  . . .
+}
+```
     
 Using static methods (Need manual recall every time)
 
-    import React from 'react';
-    import {vmin, vmax, vw, vh, percentage} from 'rxn-units';
+```typescript
+import React from 'react';
+import {vmin, vmax, vw, vh, percentage} from 'rxn-units';
     
-    const handleClick = () => {
-        console.log("current vmin", vmin());
-        console.log("current vmax", vmax());
-    }
-    
-    . . .
+const handleClick = () => {
+  console.log("current vmin", vmin());
+  console.log("current vmax", vmax());
+}
+```
 
  💡 Each unit should be used in different cases depending on the purpose or need. But keep in mind that for a responsive (non-adaptive) layout these units should suffice. Many video games, engines or graphics engines use the same scheme to create UIs or on-screen resources that must automatically follow rules regardless of resolution. Of course, in some projects things flow much better by combining the same technique with graphic elements that are different or disappear depending on the conditions but remember that if you create infinite breakpoints to "just don't let the element leave the screen" you may be missing the right unit calculations in your software. Everything here can be used to define size, dimension, scale and position. For better understanding look for our examples. 
 
