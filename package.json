@@ -1,34 +1,8 @@
 {
   "name": "rxn-units",
-  "type": "module",
   "version": "0.1.4",
-  "description": "Viewport units (vw, vh, vmin, vmax) + useUnits hook for React, React Native and Expo.",
-  "main": "build/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Luffos/rxn-units.git"
-  },
-  "author": "Luffos",
-  "license": "MIT",
   "private": false,
-  "scripts": {
-    "prepublish": "npm run build",
-    "build": "rimraf ./build && tsc --build",
-    "build-watch": "watch \"npm run build\" ./src --interval 1 --wait 0.1"
-  },
-  "devDependencies": {
-    "@types/react-native": "^0.67.3",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.6.3"
-  },
-  "peerDependencies": {
-    "react-native": "*"
-  },
-  "types": "./build/index.d.ts",
-  "bugs": {
-    "url": "https://github.com/Luffos/rxn-units/issues"
-  },
-  "homepage": "https://github.com/Luffos/rxn-units#readme",
+  "description": "Viewport units (vw, vh, vmin, vmax) + useUnits hook for React, React Native and Expo.",
   "keywords": [
     "react",
     "typescript",
@@ -37,5 +11,31 @@
     "react-native-web",
     "expo",
     "rxn"
-  ]
+  ],
+  "homepage": "https://github.com/Luffos/rxn-units#readme",
+  "bugs": {
+    "url": "https://github.com/Luffos/rxn-units/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luffos/rxn-units.git"
+  },
+  "license": "MIT",
+  "author": "Luffos",
+  "type": "module",
+  "main": "build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "rimraf ./build && tsc --build",
+    "build-watch": "watch \"npm run build\" ./src --interval 1 --wait 0.1",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.67.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  }
 }
