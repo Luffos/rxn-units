@@ -74,13 +74,11 @@ const handleClick = () => {
 }
 ```
 
- 💡 Each unit should be used in different cases depending on the purpose or need. But keep in mind that for a responsive (non-adaptive) layout these units should suffice. Many video games, engines or graphics engines use the same scheme to create UIs or on-screen resources that must automatically follow rules regardless of resolution. Of course, in some projects things flow much better by combining the same technique with graphic elements that are different or disappear depending on the conditions but remember that if you create infinite breakpoints to "just don't let the element leave the screen" you may be missing the right unit calculations in your software. Everything here can be used to define size, dimension, scale and position. For better understanding look for our examples. 
-
 ## Contributors
 
 <a href = "https://github.com/Luffos/rxn-units/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=Luffos/rxn-units"/>
 </a>
 
-##  License
+##  📄 License
 MIT - This module was built with ❤️ by [Luffos](https://github.com/Luffos)<br/>Feel free for modify, edit, copy, fork and share
