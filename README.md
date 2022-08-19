@@ -4,9 +4,9 @@ Viewport units (vw, vh, vmin, vmax, percentage) + useUnits hook<br/>for React, R
 
 Support:
 
-| Android |   IOS   | Web | Expo |
-|:-------:|:-------:|:---:|:----:|
-|    ✅   |    ✅    | ✅  |   ✅  |
+| Android | IOS | Web <br/>(react-native-web)  |  Expo  |
+|:-------:|:---:|:----------------------------:|:------:|
+|    ✅  |  ✅ |            ✅                |   ✅  |
 
 
 Inspired by: [react-native-viewport-units](https://github.com/jmstout/react-native-viewport-units) and [react-native-expo-viewport-units](https://github.com/joetakara/react-native-expo-viewport-units)
