@@ -68,7 +68,7 @@ Using static methods (Need manual recall every time)
 import React from 'react';
 import {vmin, vmax, vw, vh, percentage} from 'rxn-units';
     
-const handleClick = () => {
+const foo = () => {
   console.log("current vmin", vmin());
   console.log("current vmax", vmax());
 }
