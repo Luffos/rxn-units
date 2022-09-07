@@ -30,13 +30,11 @@ yarn add rxn-units
 
 ## Units (vw, vh, vmin, vmax and percentage)
 **What is vw? (viewport width)**<br/>
-The `vw` measurement is equal to 1/100 of the viewport, window or screen width.
-Example: If the browser width is 900px, `vw(1)` equals 9px.
+The `vw` measurement is equal to 1/100 of the viewport width. <br/>Example: If the browser width is 900px, `vw(1)` equals 9px.
 <br/>
 
 **What is vh? (viewport height)**<br/>
-The `vh` measurement is equal to 1/100 of the viewport, window or screen height.
-Example: If the browser height is 500px, `vh(1)` equals 5px.
+The `vh` measurement is equal to 1/100 of the viewport height. <br/>Example: If the browser height is 500px, `vh(1)` equals 5px.
 <br/>
 
 **What is vmin and vmax?**<br/>
@@ -49,7 +47,7 @@ Example: If the browser height is 500px, `vh(1)` equals 5px.
 
 ##  Usage
 
-Using via hook (dynamically changes)
+🌊 Using via hook (dynamically changes)
 
 ```typescript
 import React from 'react';
@@ -62,7 +60,7 @@ const Test = () => {
 }
 ```
     
-Using static methods (Need manual recall every time)
+📌 Using static methods (Need manual recall every time)
 
 ```typescript
 import React from 'react';
