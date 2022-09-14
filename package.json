@@ -1,6 +1,6 @@
 {
   "name": "rxn-units",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "description": "Viewport units (vw, vh, vmin, vmax) + useUnits hook for React, React Native and Expo.",
   "keywords": [
