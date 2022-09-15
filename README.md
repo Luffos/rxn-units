@@ -1,8 +1,8 @@
 
 <a href="https://www.npmjs.com/package/rxn-units"><img width="263" src="https://i.imgur.com/0vxacb0.png" /></a><br/>
-Viewport units (vw, vh, vmin, vmax, percentage) + useUnits hook<br/>for React, React Native and Expo.
+Viewport units (vw, vh, vmin, vmax, percentage) + useUnits hook<br/>for React, React Native and Expo.<br/>
 
-<img height="22px" alt="GitHub" src="https://img.shields.io/github/license/Luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub issues" src="https://img.shields.io/github/issues-raw/luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/luffos/rxn-units/main?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="npm" src="https://img.shields.io/npm/dt/rxn-units">
+<img height="22px" alt="GitHub" src="https://img.shields.io/github/license/Luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub issues" src="https://img.shields.io/github/issues-raw/luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/luffos/rxn-units/main?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="npm" src="https://img.shields.io/npm/dt/rxn-units?style=for-the-badge">
 
 
 Support:
