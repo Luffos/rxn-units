@@ -1,7 +1,7 @@
 
 <p align="center">
     <a href="https://www.npmjs.com/package/rxn-units"><img width="263" src="https://i.imgur.com/0vxacb0.png" /></a><br/><br/>
-    Viewport units (vw, vh, vmin, vmax, percentage) + useUnits hook for React, React Native and Expo.<br/><br/>
+    Cross-Platform Viewport Units (vw, vh, vmin, vmax, percentage) + useUnits hook for React, React Native and Expo.<br/><br/>
 </p>
 
 <p align="center">
