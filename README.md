@@ -1,9 +1,7 @@
-
-<p align="center">
-    <a href="https://www.npmjs.com/package/rxn-units"><img width="263" src="https://i.imgur.com/0vxacb0.png" /></a><br/><br/>
-    Cross-Platform Viewport Units (vw, vh, vmin, vmax, percentage) + useUnits hook for React, React Native and Expo.<br/><br/>
-</p>
-
+<a href="#" align="center">
+  <img src="https://user-images.githubusercontent.com/28831375/198503073-4b20bad6-b231-4056-8203-c1cfbc1a0c29.png">
+</a>
+</br></br>
 <p align="center">
     <img height="22px" alt="GitHub" src="https://img.shields.io/github/license/Luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub issues" src="https://img.shields.io/github/issues-raw/luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/luffos/rxn-units/main?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/luffos/rxn-units?style=for-the-badge"> ‎ ‎ <img height="22px" alt="npm" src="https://img.shields.io/npm/dt/rxn-units?style=for-the-badge">
 </p>
