@@ -59,7 +59,7 @@ The `vh` measurement is equal to 1/100 of the viewport height. <br/>Example: If 
 import React from 'react';
 import useUnits from 'rxn-units';
     
-const Test = () => {
+const Foo = () => {
   const {vmin, vmax, vw, vh, percentage} = useUnits();
 
   . . .
@@ -72,7 +72,7 @@ const Test = () => {
 import React from 'react';
 import {vmin, vmax, vw, vh, percentage} from 'rxn-units';
     
-const foo = () => {
+const Foo = () => {
   console.log("current vmin", vmin());
   console.log("current vmax", vmax());
 }
