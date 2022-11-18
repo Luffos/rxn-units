@@ -66,7 +66,7 @@ const Foo = () => {
 }
 ```
     
-📌 Using static methods (Need manual recall every time)
+📌 Using static methods (need manual recall every time)
 
 ```typescript
 import React from 'react';
