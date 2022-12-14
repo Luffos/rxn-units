@@ -27,7 +27,7 @@
   "scripts": {
     "build": "rimraf ./build && tsc --build",
     "build-watch": "watch \"npm run build\" ./src --interval 1 --wait 0.1",
-    "prepublish": "npm run build"
+    "prepack": "npm run build"
   },
   "devDependencies": {
     "@types/react-native": "^0.70.6",
