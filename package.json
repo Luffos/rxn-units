@@ -23,7 +23,8 @@
   "author": "Luffos",
   "type": "module",
   "main": "build/index.js",
-  "types": "./build/index.d.ts",
+  "source": "src/index",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "rimraf ./build && tsc --build",
     "build-watch": "watch \"npm run build\" ./src --interval 1 --wait 0.1",
