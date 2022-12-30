@@ -9,7 +9,9 @@
     "units",
     "react-native-web",
     "expo",
-    "rxn"
+    "rxn",
+    "viewport",
+    "viewport-units"
   ],
   "homepage": "https://github.com/Luffos/rxn-units#readme",
   "bugs": {
@@ -21,12 +23,14 @@
   },
   "license": "MIT",
   "author": "Luffos",
-  "type": "module",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "source": "src/index",
-  "types": "build/index.d.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "rimraf ./build && tsc --build",
+    "build": "rimraf ./dist && tsc --build",
     "build-watch": "watch \"npm run build\" ./src --interval 1 --wait 0.1",
     "prepack": "npm run build"
   },
@@ -36,6 +40,8 @@
     "typescript": "^4.6.3"
   },
   "peerDependencies": {
-    "react-native": "*"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.70.5"
   }
 }
