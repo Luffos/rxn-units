@@ -1,7 +1,7 @@
 {
   "name": "rxn-units",
   "version": "0.1.7",
-  "description": "📐 Cross-Platform Viewport Units (vw, vh, vmin, vmax, percentage) + useUnits hook for React, React Native and Expo.",
+  "description": "📐 Cross-Platform Viewport Units (vw, vh, vmin, vmax, percentage) + useUnits hook for React Native, React Native Web and Expo.",
   "keywords": [
     "react",
     "typescript",
